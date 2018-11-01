@@ -38,7 +38,8 @@
    
 }
 .navbar-brand{font-family: 'Spicy Rice', cursive;}
-.home-btn{color: #fff}
+.home-btn{color: #fff;
+	display: inline-block;}
 .home-btn:hover{ color: #000 ;
     background-color: #fff;
     border-color: #fff;} 
