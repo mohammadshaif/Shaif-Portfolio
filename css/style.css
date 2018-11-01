@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
+.home-section{
+	background-image:url(../images/68424169-alone-wallpapers.jpg);
+	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	background-position: center;
+	position: relative;
+
+}
+.overlay{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	background: #000000ad;
+
+}
+
+.vh-85{min-height: 75vh;}
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 50px;}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 17px;}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #FE5145;}
+
+.nav-link{color: #fff}
+ a:hover {
+    color: #FE544D;
+   
+}
+.navbar-brand{font-family: 'Spicy Rice', cursive;}
+.home-btn{color: #fff}
+.home-btn:hover{ color: #000 ;
+    background-color: #fff;
+    border-color: #fff;} 
+  /**home btn border**/  
+.border1 {
+    border: 2px solid #dee2e6 !important;
+}
+.about-section img{width: 85%;}
+
+.services-section{ background-color: #F8F9FA
+    }
+.services-section img{width: 15%;}
+.border2{
+	border: 2px solid #dee2e6;
+	border-radius: 10px;
+}
+.project-section{
+	background-image:url(../images/68424169-alone-wallpapers.jpg);
+	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 40vh;
+	background-position: center;
+	position: relative;
+
+}
+.project-section .overlay{ 
+position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	background: #000000d4; }
+.Client-section img{width: 20%;}
+.Work-section{background-color: #F8F9FA}
+
+a.text-secondary:hover, a.text-secondary:focus {
+    color: #FE5145 !important;
+}
+.Work-section img{width: 100%}
+.Work-section img:hover{box-shadow:3px 0 9px #000}
+
+.blog-section img{width: 100%}
+.blog-section img:hover{box-shadow:3px 0 9px #000}
+.blog-section .bg-danger {
+    background-color: #dc3545 !important;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 2px;
+    border-radius: 20px;}
+.blog-section .contant a:hover{color: #FE544D !important;
+					display: block;
+					text-decoration:none;
+}
+.contact-section {
+	background-color: #F6F6F6;
+}
+footer{background-color: #F8F9FA}
+footer a {display: inline-block !important;}
